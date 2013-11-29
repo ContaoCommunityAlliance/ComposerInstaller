@@ -8,7 +8,10 @@
 		}
 	},
 	"extra": {
-		"class": "ContaoCommunityAlliance\\ComposerInstaller\\ModuleInstaller"
+		"class": "ContaoCommunityAlliance\\ComposerInstaller\\ModuleInstaller",
+		"branch-alias": {
+			"dev-master": "1.7.1-dev"
+		}
 	},
 	"require": {
 		"contao/core": ">=2.11,<3.3"
